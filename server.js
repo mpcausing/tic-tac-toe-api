@@ -12,4 +12,4 @@ app.use(cors())
 
 route(app)
 
-app.listen(PORT, () => console.log(`Running on port ${PORT}`))
+app.listen(PORT || 3000, () => console.log(`Running on port ${PORT}`))
